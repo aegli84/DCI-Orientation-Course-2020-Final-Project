@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 20px; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(23, 36, 27);
+    background-color: #c2aa9c;                    
+}
+a:link {
+    color:  rgb(94, 89, 72);
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: rgb(23, 36, 27);
+}
+
+/* Navbar code */
+ 
+nav ul {
+    margin: -20px -20px 0 -20px;
+    padding: 0;
+    list-style-type: none;
+    background-color:#efd4c3;   
+}
+nav ul li {
+    display: inline-block; 
+    font-size: 20px 
+}
+nav a {
+    display: block;
+    padding: 20px;
+}
+nav a:link,
+nav a:visited {
+    color: #2db9b4;   
+}
+nav a:hover,
+nav li.all-page a {
+    color: #efd4c3;
+    background-color:#2db9b4;
+    text-decoration: none;      
+}
+nav a:active {
+    color: #2db9b4;
+}
+
+/* End navbar code */
+
+
+/* Main section banner */
+ 
+.banner {
+    background-image: url(/img/my-pool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-y: 65%;
+      
+    margin: 0 -20px;
+    
+    height: 815px;      
+    
+}
+.banner-text {
+    display: block;  
+    color: #ffffff;
+    width: 90%;
+    padding: 132px 0px 200px 75px;  
+}
+.banner-box-form {
+    background-color:#d6c7bb;
+    background-repeat: no-repeat;
+    border: 2px white solid;
+    padding: 3%;
+    position: static;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 4px 15px 0 #000; 
+    float: right;                                               
+}
+
+
+.banner h1 {
+    font-size: 75px;
+    margin: 20px; 
+    
+    text-shadow: 5px -6px #2a3b2f; 
+    /* padding:  132px 0px 200px 75px;   */
+    font-family: 'Vast Shadow';
+    font-weight: initial;
+    /* letter-spacing: 0.1em; */
+}
+
+#h1-p {
+    font-size: 35px;
+    font-weight: bold;
+    /* text-align: right; */
+    padding: 10px 0;  
+    margin: 35px;  
+    letter-spacing: 0.05rem; 
+    color: #ffffff;
+}
+
+/*End section banner */
+
+
+/* Services text section */
+
+.services {
+    background-color:#c2aa9c;                        /* !Revise this as body */
+    min-height: 600px;
+}
+#header-2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #36312d;
+}
+#h2-p {
+    font-size: 25px;
+    padding: 10px;  
+    /* margin: 35px;  */
+    letter-spacing: 0.05rem; 
+    color: #ffffff;
+} 
+.card-container {
+    display: inline-block;
+    padding: 40px 0px 20px 0px; 
+}
+.card {
+    display: inline-block;
+    background-color: #c2aa9c;
+    box-shadow: 0 4px 8px 0 #000;
+    width: 162px;
+    padding: 50px 60px;
+    margin: 30px 75px;
+    text-align: center;
+    font-family: arial;
+    font-size: 50px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #bccdc7;
+}
+h4 {
+    font-weight : 150;
+    font-size : 20px;
+    color : #000;
+}
+.card button {
+    border: 2px white solid;;
+    padding: 12px;
+    color: #fff;
+    background-color: #36312d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    width: 100%; 
+    background-color: #6b938d;
+    /* display: inline-block; */
+    padding: 40px 8px 10px 1px; 
+    margin: 120px 0px 0 -29px; 
+    text-align: center;
+    font-family: arial;
+}
+.footer-content {
+    list-style-type: none;
+    padding: 0;  
+}
+h5 {
+  font-weight : bold;
+  font-size : 25px;
+  color: #000;
+} 
+
+/* End of Footer */
