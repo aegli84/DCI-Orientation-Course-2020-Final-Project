@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Vast+Shadow&display=swap" rel="stylesheet"/>
+    <!-- <title>Home page</title> -->
+
+    <!-- ?This is an external stylesheet  -->
+    <link rel="stylesheet" href="CSS/styles.css"> 
+    <title>Book My Pool</title>
+</head>
+
+<body>
+  
+    <!--?Navigation-->  
+    <nav>
+        <ul class="all-pages">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      
+    </nav>
+
+     <!--?Banner-->
+    <section class="banner">
+        <div class="banner-text">
+           <h1>@Home Staycation!</h1>
+           <p id="h1-p">The new way of vacationing safe and on a budget</p> 
+      
+    <!--?Form-->
+        <form action="">
+            
+            <!-- <div class="form-content"> -->
+            <div class="banner-box-form">
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" placeholder="First name">
+              <hr>
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Last name">
+            </div>
+             <hr>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"required placeholder="required">
+            </div>
+             <hr>
+            <div>
+                <label for="email">Confirm Email address:</label>
+                <input type="email" name="conf-email" id="conf-email"required>
+            </div>
+             <hr>
+            <div>
+                <label>Number of people</label>
+                <select name="numberofpeople">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+              <hr>
+            <div>
+               <label>Age</label>
+               <input type="number" name="age" value="18">
+            </div>
+             <hr>
+            <div> 
+                <label for="chooseadate">Choose date</label>
+                <input type="date" name="chooseadate">
+            </div>
+             <hr>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Type here"></textarea>
+            </div>
+             <hr>
+            <div>
+                <input type="checkbox" name="subscribe" id="subscribe"checked>
+                <label for="subscribe">Subscribe to our mailing list</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="acceptterms" id="acceptterms"required>
+                <label for="acceptterms">I have read the terms and conditions. 
+                    <a href="#">Read terms and conditions</a></label>
+            </div>
+             <hr>
+            <div>
+                <!-- <input type="submit" value="Book"> -->
+                <button type="submit" class="btn-book">Book</button>
+            </div>
+         </form>
+    </section>
+    
+    <section class="services">
+        <h2 id="header-2">Our Services</h2>
+        <p id="h2-p">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur obcaecati 
+          fugit voluptatum in porro quasi, quis tenetur enim illum aut delectus ea rerum 
+          aliquid dolore dolores explicabo nulla exercitationem placeat. Error est soluta 
+          porro assumenda tempora repellat voluptatum fugit adipisci!
+        </p>
+        <p id="h2-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur obcaecati 
+            fugit voluptatum in porro quasi, quis tenetur enim illum aut delectus ea rerum 
+            aliquid dolore dolores explicabo nulla exercitationem placeat. Error est soluta 
+            porro assumenda tempora repellat voluptatum fugit adipisci!
+          </p>
+          <p id="h2-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur obcaecati 
+            fugit voluptatum in porro quasi, quis tenetur enim illum aut delectus ea rerum 
+            aliquid dolore dolores explicabo nulla exercitationem placeat. Error est soluta 
+            porro assumenda tempora repellat voluptatum fugit adipisci!
+          </p>
+          <p id="h2-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur obcaecati 
+            fugit voluptatum in porro quasi, quis tenetur enim illum aut delectus ea rerum 
+            aliquid dolore dolores explicabo nulla exercitationem placeat. Error est soluta 
+            porro assumenda tempora repellat voluptatum fugit adipisci!
+          </p>
+        <div class="card-container">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+             <div class="card-body">
+              <h4>FOOD</h4>
+              <div class="button">
+              <a class="btn" href="https://www.expedia.com/Payangan-Hotels-Bayad-Ubud-Bali-Villa.h4620945.Hotel-Information?chkin=8%2F22%2F2020&chkout=8%2F26%2F2020&rm1=a2&hwrqCacheKey=1ddf22f2-39b0-4efa-8cfe-2bb8651746ccHWRQ1597785621866&cancellable=false&regionId=180595&vip=false&c=434afb01-c63a-46f6-9272-88ece325c368&&selectedRoomType=200105143&selectedRatePlan=204859236&exp_dp=25.03&exp_ts=1597785623030&exp_curr=USD&swpToggleOn=false&exp_pg=HSR">
+               <button class="btn-default">Add to booking</button></a>
+              </div>
+            </div>
+          </div>
+
+           <div class="card">
+            <i class="fas fa-cocktail"></i>
+           <div class="card-body">
+             <h4>DRINKS</h4>
+             <div class="button">
+             <a class="btn" href="https://www.expedia.com/Payangan-Hotels-Bayad-Ubud-Bali-Villa.h4620945.Hotel-Information?chkin=8%2F22%2F2020&chkout=8%2F26%2F2020&rm1=a2&hwrqCacheKey=1ddf22f2-39b0-4efa-8cfe-2bb8651746ccHWRQ1597785621866&cancellable=false&regionId=180595&vip=false&c=434afb01-c63a-46f6-9272-88ece325c368&&selectedRoomType=200105143&selectedRatePlan=204859236&exp_dp=25.03&exp_ts=1597785623030&exp_curr=USD&swpToggleOn=false&exp_pg=HSR">
+               <button class="btn-default">Add to booking</button></a>
+              </div>
+            </div>
+          </div>
+
+           <div class="card">
+            <i class="fas fa-birthday-cake"></i>
+           <div class="card-body">
+             <h4>VIP AREA</h4>
+             <div class="button">
+             <a class="btn" href="https://www.expedia.com/Payangan-Hotels-Bayad-Ubud-Bali-Villa.h4620945.Hotel-Information?chkin=8%2F22%2F2020&chkout=8%2F26%2F2020&rm1=a2&hwrqCacheKey=1ddf22f2-39b0-4efa-8cfe-2bb8651746ccHWRQ1597785621866&cancellable=false&regionId=180595&vip=false&c=434afb01-c63a-46f6-9272-88ece325c368&&selectedRoomType=200105143&selectedRatePlan=204859236&exp_dp=25.03&exp_ts=1597785623030&exp_curr=USD&swpToggleOn=false&exp_pg=HSR">
+               <button class="btn-default">Add to booking</button></a>
+              </div>
+            </div>
+          </div>
+
+    <!-- ?Footer-->
+    <footer>
+    
+        <section class="footer">
+          <div>
+            <ul class="footer-content">
+              <h5>Contact us:</h5>
+              <a href="mailto:contact@bookmypool.com">contact@bookmypool.com</a>
+            </ul>
+          </div>
+          <i class="fas fa-fish"></i>
+          <small>&copy; Copyright 2020, Book My Pool Inc</small> 
+          <i class="fas fa-fish"></i>
+        </section>
+    </footer> 
+</body>
+</html>
